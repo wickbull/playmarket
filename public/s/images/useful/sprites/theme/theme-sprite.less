@@ -1,0 +1,253 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@ico-copy-name: 'ico-copy';
+@ico-copy-x: 22px;
+@ico-copy-y: 34px;
+@ico-copy-offset-x: -22px;
+@ico-copy-offset-y: -34px;
+@ico-copy-width: 18px;
+@ico-copy-height: 18px;
+@ico-copy-total-width: 112px;
+@ico-copy-total-height: 88px;
+@ico-copy-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-copy: 22px 34px -22px -34px 18px 18px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-copy';
+@ico-envelope-name: 'ico-envelope';
+@ico-envelope-x: 42px;
+@ico-envelope-y: 34px;
+@ico-envelope-offset-x: -42px;
+@ico-envelope-offset-y: -34px;
+@ico-envelope-width: 20px;
+@ico-envelope-height: 16px;
+@ico-envelope-total-width: 112px;
+@ico-envelope-total-height: 88px;
+@ico-envelope-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-envelope: 42px 34px -42px -34px 20px 16px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-envelope';
+@ico-fb-name: 'ico-fb';
+@ico-fb-x: 98px;
+@ico-fb-y: 18px;
+@ico-fb-offset-x: -98px;
+@ico-fb-offset-y: -18px;
+@ico-fb-width: 9px;
+@ico-fb-height: 20px;
+@ico-fb-total-width: 112px;
+@ico-fb-total-height: 88px;
+@ico-fb-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-fb: 98px 18px -98px -18px 9px 20px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-fb';
+@ico-gp-name: 'ico-gp';
+@ico-gp-x: 18px;
+@ico-gp-y: 56px;
+@ico-gp-offset-x: -18px;
+@ico-gp-offset-y: -56px;
+@ico-gp-width: 20px;
+@ico-gp-height: 12px;
+@ico-gp-total-width: 112px;
+@ico-gp-total-height: 88px;
+@ico-gp-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-gp: 18px 56px -18px -56px 20px 12px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-gp';
+@ico-info-hover-name: 'ico-info-hover';
+@ico-info-hover-x: 0px;
+@ico-info-hover-y: 56px;
+@ico-info-hover-offset-x: 0px;
+@ico-info-hover-offset-y: -56px;
+@ico-info-hover-width: 16px;
+@ico-info-hover-height: 16px;
+@ico-info-hover-total-width: 112px;
+@ico-info-hover-total-height: 88px;
+@ico-info-hover-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-info-hover: 0px 56px 0px -56px 16px 16px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-info-hover';
+@ico-info-name: 'ico-info';
+@ico-info-x: 64px;
+@ico-info-y: 34px;
+@ico-info-offset-x: -64px;
+@ico-info-offset-y: -34px;
+@ico-info-width: 16px;
+@ico-info-height: 16px;
+@ico-info-total-width: 112px;
+@ico-info-total-height: 88px;
+@ico-info-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-info: 64px 34px -64px -34px 16px 16px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-info';
+@ico-lock-name: 'ico-lock';
+@ico-lock-x: 82px;
+@ico-lock-y: 34px;
+@ico-lock-offset-x: -82px;
+@ico-lock-offset-y: -34px;
+@ico-lock-width: 14px;
+@ico-lock-height: 16px;
+@ico-lock-total-width: 112px;
+@ico-lock-total-height: 88px;
+@ico-lock-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-lock: 82px 34px -82px -34px 14px 16px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-lock';
+@ico-qiwi-name: 'ico-qiwi';
+@ico-qiwi-x: 34px;
+@ico-qiwi-y: 0px;
+@ico-qiwi-offset-x: -34px;
+@ico-qiwi-offset-y: 0px;
+@ico-qiwi-width: 31px;
+@ico-qiwi-height: 32px;
+@ico-qiwi-total-width: 112px;
+@ico-qiwi-total-height: 88px;
+@ico-qiwi-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-qiwi: 34px 0px -34px 0px 31px 32px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-qiwi';
+@ico-question-name: 'ico-question';
+@ico-question-x: 98px;
+@ico-question-y: 40px;
+@ico-question-offset-x: -98px;
+@ico-question-offset-y: -40px;
+@ico-question-width: 10px;
+@ico-question-height: 16px;
+@ico-question-total-width: 112px;
+@ico-question-total-height: 88px;
+@ico-question-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-question: 98px 40px -98px -40px 10px 16px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-question';
+@ico-search-name: 'ico-search';
+@ico-search-x: 0px;
+@ico-search-y: 34px;
+@ico-search-offset-x: 0px;
+@ico-search-offset-y: -34px;
+@ico-search-width: 20px;
+@ico-search-height: 20px;
+@ico-search-total-width: 112px;
+@ico-search-total-height: 88px;
+@ico-search-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-search: 0px 34px 0px -34px 20px 20px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-search';
+@ico-tw-name: 'ico-tw';
+@ico-tw-x: 0px;
+@ico-tw-y: 74px;
+@ico-tw-offset-x: 0px;
+@ico-tw-offset-y: -74px;
+@ico-tw-width: 16px;
+@ico-tw-height: 14px;
+@ico-tw-total-width: 112px;
+@ico-tw-total-height: 88px;
+@ico-tw-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-tw: 0px 74px 0px -74px 16px 14px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-tw';
+@ico-user-name: 'ico-user';
+@ico-user-x: 98px;
+@ico-user-y: 0px;
+@ico-user-offset-x: -98px;
+@ico-user-offset-y: 0px;
+@ico-user-width: 14px;
+@ico-user-height: 16px;
+@ico-user-total-width: 112px;
+@ico-user-total-height: 88px;
+@ico-user-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-user: 98px 0px -98px 0px 14px 16px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-user';
+@ico-vk-name: 'ico-vk';
+@ico-vk-x: 40px;
+@ico-vk-y: 56px;
+@ico-vk-offset-x: -40px;
+@ico-vk-offset-y: -56px;
+@ico-vk-width: 16px;
+@ico-vk-height: 10px;
+@ico-vk-total-width: 112px;
+@ico-vk-total-height: 88px;
+@ico-vk-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-vk: 40px 56px -40px -56px 16px 10px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-vk';
+@ico-webmoney-name: 'ico-webmoney';
+@ico-webmoney-x: 0px;
+@ico-webmoney-y: 0px;
+@ico-webmoney-offset-x: 0px;
+@ico-webmoney-offset-y: 0px;
+@ico-webmoney-width: 32px;
+@ico-webmoney-height: 32px;
+@ico-webmoney-total-width: 112px;
+@ico-webmoney-total-height: 88px;
+@ico-webmoney-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-webmoney: 0px 0px 0px 0px 32px 32px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-webmoney';
+@ico-yandexmoney-name: 'ico-yandexmoney';
+@ico-yandexmoney-x: 67px;
+@ico-yandexmoney-y: 0px;
+@ico-yandexmoney-offset-x: -67px;
+@ico-yandexmoney-offset-y: 0px;
+@ico-yandexmoney-width: 29px;
+@ico-yandexmoney-height: 32px;
+@ico-yandexmoney-total-width: 112px;
+@ico-yandexmoney-total-height: 88px;
+@ico-yandexmoney-image: '../images/useful/sprites/theme/theme-sprite.png';
+@ico-yandexmoney: 67px 0px -67px 0px 29px 32px 112px 88px '../images/useful/sprites/theme/theme-sprite.png' 'ico-yandexmoney';
+@spritesheet-width: 112px;
+@spritesheet-height: 88px;
+@spritesheet-image: '../images/useful/sprites/theme/theme-sprite.png';
+@spritesheet-sprites: @ico-copy @ico-envelope @ico-fb @ico-gp @ico-info-hover @ico-info @ico-lock @ico-qiwi @ico-question @ico-search @ico-tw @ico-user @ico-vk @ico-webmoney @ico-yandexmoney;
+@spritesheet: 112px 88px '../images/useful/sprites/theme/theme-sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}

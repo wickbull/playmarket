@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c972ece3-fdc4-4d42-ada5-bb9f603f873d" name="dev" url="http://playzo.ru">
+        <fileTransfer host="laraman" port="22" rootFolder="/var/www/laraman/data/www/playzo.ru" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="afa7f50f-c985-4111-9e35-7e59fdf663a8" name="playzo" url="http://94.130.33.111">
+        <fileTransfer host="94.130.33.111" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
